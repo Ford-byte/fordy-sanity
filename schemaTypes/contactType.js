@@ -25,5 +25,10 @@ export default defineType({
       title: 'Message',
       type: 'text',
     }),
+    defineField({
+      name: 'submittedAt',
+      title: 'Submitted At',
+      type: 'datetime',
+    }),
   ],
 })
