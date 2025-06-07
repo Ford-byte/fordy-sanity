@@ -40,5 +40,13 @@ export default defineType({
       title: 'Description',
       type: 'text',
     }),
+    {
+      name: 'image',
+      title: 'Main Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
   ],
 })
