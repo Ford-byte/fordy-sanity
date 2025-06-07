@@ -6,6 +6,16 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
+      name: 'title',
+      title: 'Title',
+      type: 'string',
+    }),
+    defineField({
+      name: 'link',
+      title: 'Link',
+      type: 'url',
+    }),
+    defineField({
       name: 'company_name',
       title: 'Company Name',
       type: 'string',
